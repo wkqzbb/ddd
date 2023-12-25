@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: ddd-demo
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+  redis:
+    host: 127.0.0.1
+    port: 63790
+  datasource:
+    url: jdbc:mysql://localhost:3306/ddd
+    username: root
+    password: Zbb010719!
+    driver-class-name: com.mysql.cj.jdbc.Driver
